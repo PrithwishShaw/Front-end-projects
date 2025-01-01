@@ -1,0 +1,109 @@
+body{
+    font-family: 'BioRhyme', serif; /* Use 'serif' as the fallback font */
+    
+}
+
+.main-cointainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 2rem;
+}
+
+.cointainer{
+    /* background-color: red; */
+}
+
+.heading{
+    display: flex;
+    gap: 250px;
+    margin-bottom: 8.2rem;
+}
+
+.span2{
+    color: hwb(26 0% 0%);
+}
+
+.head-text{
+    /* background-color: orange; */
+    display: flex;
+    align-items: center;
+}
+
+h1{
+    font-size: 70px;
+    margin: 0;
+    /* position: relative; */
+    /* display: inline-block; */
+}
+
+.lines{
+    min-width: 456px;
+}
+
+p{
+    text-align: right;
+    font-size: 20px;
+    font-weight: 500px;
+    margin: 0;
+    color: grey;
+}
+
+.para{
+    max-width: 780px;
+}
+
+.underline{
+    height: 4px;
+    border: 1px solid hwb(26 0% 0%);
+    width: 90px;
+    margin: 0; 
+    background-color: hwb(26 0% 0%);
+    display: block;
+    position: relative;
+    bottom: 5px;
+}
+
+@media (max-width:1311px){
+    .main-cointainer{
+        /* background-color: aqua; */
+        flex-direction: column;
+        height: 100%;
+
+    }
+
+    .heading{
+        flex-direction: column;
+        align-items: center;
+        gap: 2.4rem;
+    }
+
+    .cointainer{
+        width: 95%;
+    }
+
+    .head-text > p{
+        text-align: center;
+    }
+
+    .head-text > h1{
+        font-size: 34px;
+        text-align: center;
+    }
+
+    .lines{
+        min-width: 222px;
+    }
+
+    .underline{
+        top: 2px;
+        left: 71px;
+        width: 80px;
+    }
+
+
+}
+
+
+
